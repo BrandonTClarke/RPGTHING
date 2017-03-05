@@ -12,9 +12,10 @@ Characters (Items)
 Enemys (stats)
 Movement (Rigid)
 Enemy (movement)
-GameBoard
 UI (Includes Inventory)
 Options on spaces (Search, Fight)
+Combat (turnbased)
+GameBoard
 Shops
 Inns
 Events
