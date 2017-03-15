@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44658065, g: 0.49641567, b: 0.57482177, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -144,8 +144,8 @@ GameObject:
   - component: {fileID: 130343635}
   - component: {fileID: 130343634}
   - component: {fileID: 130343637}
-  - component: {fileID: 130343636}
   - component: {fileID: 130343638}
+  - component: {fileID: 130343636}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 130343633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134d4ce2ffea5514ca560dd5f394dcec, type: 3}
+  m_Script: {fileID: 11500000, guid: ba30d366d6f197f4c8c8b18b1b452415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &130343637
@@ -219,7 +219,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 130343633}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -928,7 +928,7 @@ SpriteRenderer:
   m_SortingLayerID: -902149459
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7c3d4ff8aa38d5f41b479a96ad36f5d9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.3803922, g: 0.3803922, b: 0.3803922, a: 0.941}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &977551390
@@ -965,7 +965,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 977551388}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -977,7 +977,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 7
+  m_Constraints: 3
 --- !u!1 &1054256609
 GameObject:
   m_ObjectHideFlags: 0

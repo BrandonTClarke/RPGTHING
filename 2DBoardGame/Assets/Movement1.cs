@@ -1,63 +1,60 @@
-﻿/* using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
-public class Character : MonoBehaviour
+class Movement1 : MonoBehaviour
 {
-	float speed = 5.0f;
 
-	[SerializeField]
-	// Use this for initialization
+	Vector3 pos;                                // For movement
+	float speed = 3.0f;                         // Speed of movement
+
+	void Start () {
+		pos = transform.position;          // Take the initial position
+	}
+
+	void FixedUpdate () {
+		if(Input.GetAxisRaw("Horizontal") < 0 && transform.position == pos) {        // Left
+			pos += Vector3.left;
+		}
+		if(Input.GetAxisRaw("Horizontal") > 0 && transform.position == pos) {        // Right
+			pos += Vector3.right;
+		}
+		if(Input.GetAxisRaw("Vertical") > 0 && transform.position == pos) {        // Up
+			pos += Vector3.up;
+		}
+		if(Input.GetAxisRaw("Vertical") < 0 && transform.position == pos) {        // Down
+			pos += Vector3.down;
+		}
+		transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);    // Move there
+	}
+
+	/* public float speed = 5.0f; // player speed
+	public Rigidbody2D rb2D;
+	private Vector3 pos; // position
+
 	void Start()
 	{
-
+		rb2D = GetComponent<Rigidbody2D>();
+		pos = transform.position; // Take the initial position
 	}
 
-	// Update is called once per frame
-	void Update()
+	void FixedUpdate()
 	{
-		RaycastHit2D hitUp = Physics2D.Raycast(transform.position, -Vector2.up);
-		RaycastHit2D hitDown = Physics2D.Raycast(transform.position, -Vector2.down);
-		RaycastHit2D hitLeft = Physics2D.Raycast(transform.position, -Vector2.left);
-		RaycastHit2D hitRight = Physics2D.Raycast(transform.position, -Vector2.right);
-
-		if(collider !=null) 
-		{
-			if (Input.GetKey(KeyCode.A) && hitLeft.distance > 1)
-			{
-				transform.position += Vector3.left * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.D) && hitRight.distance > 1)
-			{
-				transform.position += Vector3.right * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.W) && hitUp.distance > 1)
-			{
-				transform.position += Vector3.up * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.S) && hitDown.distance > 1)
-			{
-				transform.position += Vector3.down * speed * Time.deltaTime;
-			}
-		}
-		else
-		{
-			if (Input.GetKey(KeyCode.J) && hitLeft.distance > 1)
-			{
-				transform.position += Vector3.left * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.L) && hitRight.distance > 1)
-			{
-				transform.position += Vector3.right * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.I) && hitUp.distance > 1)
-			{
-				transform.position += Vector3.up * speed * Time.deltaTime;
-			}
-			if (Input.GetKey(KeyCode.K) && hitDown.distance > 1)
-			{
-				transform.position += Vector3.down * speed * Time.deltaTime;
-			}
-		}
+	Move();
 	}
-}
+
+	void Move()
+		{
+		// If key pressed && not moving
+		if (Input.GetAxisRaw("Horizontal") < 0) // Left
+			rb2D.MovePosition(rb2D.position + Vector2.left * Time.fixedDeltaTime);
+		if (Input.GetAxisRaw("Horizontal") > 0) // Right
+			rb2D.MovePosition(rb2D.position + Vector2.right * Time.fixedDeltaTime);
+		if (Input.GetAxisRaw("Vertical") > 0) // Up
+			rb2D.MovePosition(rb2D.position + Vector2.up * Time.fixedDeltaTime);
+		if (Input.GetAxisRaw("Vertical") < 0) // Down
+			rb2D.MovePosition(rb2D.position + Vector2.down * Time.fixedDeltaTime);
+
+	}
+
 */
+}

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿/*
+using System.Collections;
 using UnityEngine;
 
 class Movement : MonoBehaviour
@@ -48,3 +49,5 @@ class Movement : MonoBehaviour
 		}
     }
 }
+
+*/
