@@ -4,8 +4,8 @@ using UnityEngine;
 class Movement : MonoBehaviour
 {
     Vector3 pos;                                // For movement
-    float speed = 5.0f;                         // Speed of movement
-
+    float speed = 1.0f;                         // Speed of movement
+	private LayerMask wall = 8;
 
     void Start()
     {
@@ -15,10 +15,10 @@ class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-		RaycastHit2D hitUp = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.up, 1.0f);
-		RaycastHit2D hitDown = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.down, 1.0f);
-		RaycastHit2D hitLeft = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.left, 1.0f);
-		RaycastHit2D hitRight = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.right, 1.0f);
+		RaycastHit2D hitUp = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.up, 0.5f, wall);
+		RaycastHit2D hitDown = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.down, 0.5f, wall);
+		RaycastHit2D hitLeft = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.left, 0.5f, wall);
+		RaycastHit2D hitRight = Physics2D.Raycast(this.gameObject.transform.position, -Vector2.right, 0.5f, wall);
 
 		if (Input.GetKey(KeyCode.A) && transform.position == pos)
         { // Left

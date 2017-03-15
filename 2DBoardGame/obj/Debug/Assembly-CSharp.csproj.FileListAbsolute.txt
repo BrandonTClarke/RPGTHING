@@ -29,3 +29,34 @@ C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.pdb
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.pdb
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Mono.Cecil.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEditor.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.Analytics.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.HoloLens.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.VR.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Unity.DataContract.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Unity.CecilTools.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEditor.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.UI.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.Analytics.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.HoloLens.xml
+E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.VR.xml
