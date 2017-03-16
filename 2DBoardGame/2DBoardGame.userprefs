@@ -1,8 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Movement1.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Movement.cs" Line="44" Column="1" />
+=======
+      <File FileName="Assets\Movement.cs" Line="27" Column="76" />
+      <File FileName="Assets\Movement1.cs" Line="24" Column="36" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
