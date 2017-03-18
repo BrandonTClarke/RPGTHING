@@ -29,6 +29,7 @@ C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\Simon\Desktop\Programming\CIS 35 (Spring 2017)\CIS35 Project\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.pdb
+<<<<<<< HEAD
 E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.dll
 E:\Files\Projects\CIS35\RPGTHING\2DBoardGame\obj\Debug\Assembly-CSharp.pdb
@@ -92,3 +93,5 @@ C:\Users\Bran\Documents\GitHub\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.A
 C:\Users\Bran\Documents\GitHub\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Bran\Documents\GitHub\RPGTHING\2DBoardGame\Temp\bin\Debug\UnityEngine.VR.xml
 
+=======
+>>>>>>> parent of 1a2a2ec... Attept at More movement

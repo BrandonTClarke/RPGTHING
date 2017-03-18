@@ -3,11 +3,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Movement1.cs">
     <Files>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <File FileName="Assets\Movement.cs" Line="44" Column="1" />
 =======
       <File FileName="Assets\Movement.cs" Line="27" Column="76" />
       <File FileName="Assets\Movement1.cs" Line="24" Column="36" />
 >>>>>>> origin/master
+=======
+      <File FileName="Assets\Movement.cs" Line="32" Column="9" />
+>>>>>>> parent of 1a2a2ec... Attept at More movement
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
