@@ -1,0 +1,44 @@
+[
+	{
+		"id":0,
+		"title": "Wooden Bow",
+		"value": 1,
+		"stats": {
+			"dice": 0,
+			"attack": 1,
+			"defense": 0,
+			"speed": 0,
+			"health": 1
+			},
+		"description": "Your basic wooden bow.",
+		"slug": "wooden_bow"
+	},
+	{
+		"id":1,
+		"title": "Wooden Dagger",
+		"value": 1,
+		"stats": {
+			"dice": 0,
+			"attack": 1,
+			"defense": 0,
+			"speed": 1,
+			"health": 0
+			},
+		"description": "Your basic wooden dagger.",
+		"slug": "wooden_dagger"
+	},
+	{
+		"id":2,
+		"title": "Wooden Sword",
+		"value": 1,
+		"stats": {
+			"dice": 0,
+			"attack": 0,
+			"defense": 1,
+			"speed": 0,
+			"health": 1
+			},
+		"description": "Your basic wooden sword.",
+		"slug": "wooden_sword"
+	}
+]
